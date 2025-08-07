@@ -1,0 +1,139 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "BOOKING",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "customerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sittingDateStart",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "BOOKING",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "customerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sittingDateStart",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "sittingDateEnd",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "BOOKING",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sittingDateStart",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "sittingDateEnd",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "CUSTOMERS",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "updated",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "KANA",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ORDER_DETAILS",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID_CUSTOMER",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "SITTING_DATE",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ORDER_DETAILS",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID_ORDER",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "SITTING_DATE",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ORDERS",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID_CUSTOMER",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "SITTING_DATE_START",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "SITTING_DATE_END",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "PETS",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID_CUSTOMER",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "RECEIPT",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

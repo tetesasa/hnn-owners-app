@@ -1,16 +1,30 @@
-# hnn_owners
+# 🐱 HNN Owners App
 
-A new Flutter project.
+**CAT HOME SERVICE 飼い主様専用アプリ**
 
-## Getting Started
+## 📱 プロジェクト概要
 
-This project is a starting point for a Flutter application.
+飼い主様がペットシッターサービスを簡単に予約・管理できるモバイルアプリケーションです。
 
-A few resources to get you started if this is your first Flutter project:
+### ✨ 主要機能
+- 📅 ペットシッティング予約・管理
+- 🐕 ペット情報プロフィール管理
+- 📸 サービスレポート・写真閲覧
+- 💳 決済・請求書管理
+- 📞 シッターとのコミュニケーション
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🛠️ 技術スタック
+- **Framework**: Flutter 3.24+
+- **Language**: Dart 3.5+
+- **Backend**: Firebase (Firestore, Auth, Storage, Functions)
+- **State Management**: Riverpod 2.0+
+- **UI**: Material Design 3
+- **Platform**: Android, iOS, Web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 開発環境セットアップ
+
+### 前提条件
+```bash
+flutter --version  # 3.24.0+
+dart --version     # 3.5.0+
+firebase --version # 13.0.0+
