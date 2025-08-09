@@ -85,3 +85,24 @@ android/local.properties
 ios/Runner/GeneratedPluginRegistrant.*
 ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
+# Development scripts
+emergency_recovery.sh
+final_cleanup.sh
+fix_code_quality.sh
+safe_syntax_fix.sh
+git_cleanup_phase54.sh
+
+# Firebase Functions
+functions/node_modules/
+functions/.env*
+functions/dist/
+functions/lib/
+functions/.runtimeconfig.json
+
+# Test reports and documentation
+TEST_COMPLETION_REPORT.md
+SECURITY_COMPLIANCE_CHECKLIST.md
+
+# Backup files
+lib_backup*/
+*_backup/
